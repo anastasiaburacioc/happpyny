@@ -1,7 +1,7 @@
-function sing() {
-function music() {
- let video = document.getElementById("audio");
+
+ alert('Te rog să conectezi sunetul! :)');
+document.body.addEventListener('click', function(){
+  let video = document.getElementById("audio");
 video.play();
-alert('Te rog să conectezi sunetul! :)');
-}
-music();}
+})
+
