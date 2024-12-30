@@ -19,20 +19,22 @@ background-size: cover;
 }
 
 .bg-img {
-  width: 388px;
-  height: 475px;
+  width: 50%;
+  height: 50%;
 background-image: url(../images/png-clipart-paper-removebg-preview.png);
 background-repeat: no-repeat;
+background-size: contain;
 position: absolute;
 top: 0;
 left: 0;
 }
 
 .bg-img-2 {
-  width: 388px;
-  height: 475px;
+width: 50%;
+  height: 50%;
   background-image: url(../images/png-clipart-paper-removebg-preview.png);
   background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
 bottom: 0;
   right: 0;
