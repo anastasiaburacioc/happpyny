@@ -113,7 +113,8 @@ span:nth-child(4n-3) {
 .toy {
   position: absolute;
   top: -474px;
-   right: 0px;
+ 
+  
 }
 
 .toy-animation {
@@ -123,7 +124,7 @@ animation: toys .8s forwards ease-in-out;
 @keyframes toys {
 
 100% {
-  transform: translateY(440px);
+  transform: translateY(400px);
 }
 }
 
@@ -134,9 +135,10 @@ animation: toys .8s forwards ease-in-out;
       font-style: normal;
       font-variation-settings:
         "MORF" 0;
-        font-size: 7vw;
+        font-size: 8vw;
         z-index: 20;
-        color: azure;
+        color: rgb(226, 235, 224);
+
 }
 
 .text-animation {
@@ -151,5 +153,6 @@ animation: toys .8s forwards ease-in-out;
 
    100% {
       transform: scale(1);
+      transform: translateY(30%);
     }
 }
