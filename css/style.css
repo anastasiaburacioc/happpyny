@@ -15,6 +15,7 @@ body {
 background: linear-gradient(133deg, rgba(203, 25, 25, 1) 6%, rgba(207, 10, 27, 1) 54%, rgba(255, 0, 39, 1) 85%);
 background-repeat: no-repeat;
 background-size: cover;
+  overflow: hidden;
 }
 
 .bg-img {
