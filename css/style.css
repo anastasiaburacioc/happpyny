@@ -113,7 +113,7 @@ span:nth-child(4n-3) {
 .toy {
   position: absolute;
   top: -474px;
-  
+   right: 0px;
 }
 
 .toy-animation {
