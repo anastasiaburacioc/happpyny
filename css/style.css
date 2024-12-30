@@ -15,7 +15,8 @@ body {
 background: linear-gradient(133deg, rgba(203, 25, 25, 1) 6%, rgba(207, 10, 27, 1) 54%, rgba(255, 0, 39, 1) 85%);
 background-repeat: no-repeat;
 background-size: cover;
-  overflow: hidden;
+width: 100vw;
+height: 100vh;
 }
 
 .bg-img {
@@ -88,7 +89,7 @@ body:hover span {
   }
 }
 
-span {
+.words {
   color: rgb(40, 139, 29);
  
 }
@@ -108,54 +109,47 @@ span:nth-child(4n-3) {
   text-shadow: 1px 1px hsl(30, 45%, 50%), 2px 2px hsl(30, 45%, 50%), 3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%);
 }
 */
-h1 span:nth-child(2) {
-  animation-delay: .05s;
+
+.toy {
+  position: absolute;
+  top: -474px;
+  
 }
 
-h1 span:nth-child(3) {
-  animation-delay: .1s;
+.toy-animation {
+animation: toys .8s forwards ease-in-out;
 }
 
-h1 span:nth-child(4) {
-  animation-delay: .15s;
+@keyframes toys {
+
+100% {
+  transform: translateY(440px);
+}
 }
 
-h1 span:nth-child(5) {
-  animation-delay: .2s;
+.text {
+    font-family: "Agu Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "MORF" 0;
+        font-size: 7vw;
+        z-index: 20;
+        color: azure;
 }
 
-h1 span:nth-child(6) {
-  animation-delay: .25s;
+.text-animation {
+  animation: text .9s forwards ease-in-out;
 }
 
-h1 span:nth-child(7) {
-  animation-delay: .3s;
-}
+@keyframes text {
 
-h1 span:nth-child(8) {
-  animation-delay: .35s;
-}
+  0% {
+    transform: scale(0);
+  }
 
-h1 span:nth-child(9) {
-  animation-delay: .4s;
-}
-
-h1 span:nth-child(10) {
-  animation-delay: .45s;
-}
-
-h1 span:nth-child(11) {
-  animation-delay: .5s;
-}
-
-h1 span:nth-child(12) {
-  animation-delay: .55s;
-}
-
-h1 span:nth-child(13) {
-  animation-delay: .6s;
-}
-
-h1 span:nth-child(14) {
-  animation-delay: .65s;
+   100% {
+      transform: scale(1);
+    }
 }
